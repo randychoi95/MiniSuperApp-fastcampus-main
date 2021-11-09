@@ -13,7 +13,6 @@ final class PaymentMethodView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .systemFont(ofSize: 18, weight: .semibold)
         label.textColor = .white
-        label.text = "우리은행"
         return label
     }()
     
@@ -22,7 +21,6 @@ final class PaymentMethodView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .systemFont(ofSize: 15, weight: .regular)
         label.textColor = .white
-        label.text = " ****"
         return label
     }()
     
@@ -43,7 +41,6 @@ final class PaymentMethodView: UIView {
     private func setupViews() {
         addSubview(nameLabel)
         addSubview(subtitleLabel)
-        backgroundColor = .systemIndigo
         
         NSLayoutConstraint.activate([
             nameLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 24),
