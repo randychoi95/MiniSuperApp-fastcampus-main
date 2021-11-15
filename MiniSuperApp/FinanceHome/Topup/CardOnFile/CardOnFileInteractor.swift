@@ -56,7 +56,7 @@ final class CardOnFileInteractor: PresentableInteractor<CardOnFilePresentable>, 
     
     func didSelectItem(at index: Int) {
         if index >= paymentMethos.count {
-            listener?.cardOnFileDidTapClose()
+            listener?.cardOnFileDidTapAddCard()
         } else {
             listener?.cardOnDidSelect(at: index)
         }
