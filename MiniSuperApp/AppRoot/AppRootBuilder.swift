@@ -28,9 +28,7 @@ final class AppRootBuilder: Builder<AppRootDependency>, AppRootBuildable {
         let tabBar = RootTabBarController()
         
         let component = AppRootComponent(
-            dependency: dependency,
-            cardOnFileRepository: CardOnFileRepositoryImp(),
-            superPayRepository: SuperPayRepositoryImp(),
+            dependency: dependency, 
             rootViewController: tabBar
         )
         

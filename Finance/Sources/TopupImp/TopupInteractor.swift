@@ -28,7 +28,7 @@ protocol TopupRouting: Routing {
 
 protocol TopupInteractorDependency {
     var cardOnFileRepository: CardOnFileRepository { get }
-    var paymentMethodStream: CurrentValuePublisher<PaymentMethod> { get }
+    var paymentMethodStream: CurrentValuePublisher<PaymentMethod> { get } 
 }
 
 final class TopupInteractor: Interactor, TopupInteractable, AddPaymentMethodListener, AdaptivePresentationControllerDelegate {
