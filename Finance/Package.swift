@@ -123,7 +123,8 @@ let package = Package(
                 "FinanceRepositoryTestSupport",
                 "TopupTestSupport",
                 "AddPaymentMethodTestSupport",
-                .product(name: "RIBsTestSupport", package: "Platform")
+                .product(name: "RIBsTestSupport", package: "Platform"),
+                .product(name: "PlatformTestSupport", package: "Platform")
             ]
         )
     ]
