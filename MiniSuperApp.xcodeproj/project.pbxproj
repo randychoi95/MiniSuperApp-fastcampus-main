@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		98B50F5C273CF68900D45285 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B50F5B273CF68900D45285 /* Array+Utils.swift */; };
+		98E187552754B018008663B3 /* TopupTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 98E187542754B018008663B3 /* TopupTestSupport */; };
 		98EB96DA2733B9350083318E /* CombineExt in Frameworks */ = {isa = PBXBuildFile; productRef = 98EB96D92733B9350083318E /* CombineExt */; };
 		98F95BEA274B5E0100268EE6 /* AddPaymentMethod in Frameworks */ = {isa = PBXBuildFile; productRef = 98F95BE9274B5E0100268EE6 /* AddPaymentMethod */; };
 		98F95BF0274B6C8700268EE6 /* FinanceEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 98F95BEF274B6C8700268EE6 /* FinanceEntity */; };
@@ -31,7 +32,6 @@
 		98F95C1A274DD4A600268EE6 /* SuperAppURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F95C19274DD4A600268EE6 /* SuperAppURLProtocol.swift */; };
 		98F95C1C274DD72F00268EE6 /* SetupURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F95C1B274DD72F00268EE6 /* SetupURLProtocol.swift */; };
 		98F95C24274F46ED00268EE6 /* FinanceRepositoryTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 98F95C23274F46ED00268EE6 /* FinanceRepositoryTestSupport */; };
-		98F95C2A274F622400268EE6 /* TopupTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 98F95C29274F622400268EE6 /* TopupTestSupport */; };
 		98F95C2C27509D5F00268EE6 /* RIBsTestSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 98F95C2B27509D5F00268EE6 /* RIBsTestSupport */; };
 		F57F6AFE26DB4CD700C0117D /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F6AFD26DB4CD700C0117D /* RootTabBarController.swift */; };
 		F5829F5926DB2BC400BFA8CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5829F5826DB2BC400BFA8CD /* AppDelegate.swift */; };
@@ -88,12 +88,12 @@
 				98F95BF8274B6C8700268EE6 /* SuperUI in Frameworks */,
 				98F95C04274B7EEF00268EE6 /* TransportHome in Frameworks */,
 				F5829F6E26DB2DE900BFA8CD /* ModernRIBs in Frameworks */,
+				98E187552754B018008663B3 /* TopupTestSupport in Frameworks */,
 				98F95BF6274B6C8700268EE6 /* RIBsUtil in Frameworks */,
 				98F95C2C27509D5F00268EE6 /* RIBsTestSupport in Frameworks */,
 				98F95C06274B80BA00268EE6 /* AppHome in Frameworks */,
 				98F95C02274B7D7A00268EE6 /* FinanceHome in Frameworks */,
 				98F95C16274DCAF000268EE6 /* NetworkImp in Frameworks */,
-				98F95C2A274F622400268EE6 /* TopupTestSupport in Frameworks */,
 				98F95BF2274B6C8700268EE6 /* FinanceRepository in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,8 +213,8 @@
 				98F95C13274DCAF000268EE6 /* Network */,
 				98F95C15274DCAF000268EE6 /* NetworkImp */,
 				98F95C23274F46ED00268EE6 /* FinanceRepositoryTestSupport */,
-				98F95C29274F622400268EE6 /* TopupTestSupport */,
 				98F95C2B27509D5F00268EE6 /* RIBsTestSupport */,
+				98E187542754B018008663B3 /* TopupTestSupport */,
 			);
 			productName = SuperRedApp;
 			productReference = F5829F5526DB2BC400BFA8CD /* MiniSuperApp.app */;
@@ -500,6 +500,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		98E187542754B018008663B3 /* TopupTestSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TopupTestSupport;
+		};
 		98EB96D92733B9350083318E /* CombineExt */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 98EB96D82733B9350083318E /* XCRemoteSwiftPackageReference "CombineExt" */;
@@ -576,10 +580,6 @@
 		98F95C23274F46ED00268EE6 /* FinanceRepositoryTestSupport */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FinanceRepositoryTestSupport;
-		};
-		98F95C29274F622400268EE6 /* TopupTestSupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = TopupTestSupport;
 		};
 		98F95C2B27509D5F00268EE6 /* RIBsTestSupport */ = {
 			isa = XCSwiftPackageProductDependency;
