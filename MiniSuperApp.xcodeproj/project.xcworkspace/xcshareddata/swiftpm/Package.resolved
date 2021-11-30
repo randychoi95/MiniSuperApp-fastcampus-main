@@ -11,12 +11,12 @@
         }
       },
       {
-        "package": "CombineExt",
-        "repositoryURL": "https://github.com/CombineCommunity/CombineExt.git",
+        "package": "Hammer",
+        "repositoryURL": "https://github.com/lyft/Hammer",
         "state": {
           "branch": null,
-          "revision": "0880829102152185190064fd17847a7c681d2127",
-          "version": "1.5.1"
+          "revision": "973901f95c72c199eaa9a35dd82761045fef4aa8",
+          "version": "0.13.2"
         }
       },
       {
