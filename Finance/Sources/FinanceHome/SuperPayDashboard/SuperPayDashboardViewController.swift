@@ -38,6 +38,7 @@ final class SuperPayDashboardViewController: UIViewController, SuperPayDashboard
         button.setTitle("충전하기", for: .normal)
         button.setTitleColor(.systemBlue, for: .normal)
         button.addTarget(self, action: #selector(topupButtonDidTap), for: .touchUpInside)
+        button.accessibilityIdentifier = "superpay_dashboard_toup_button"
         return button
     }()
     
@@ -63,8 +64,8 @@ final class SuperPayDashboardViewController: UIViewController, SuperPayDashboard
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = .systemFont(ofSize: 22, weight: .semibold)
+        label.accessibilityIdentifier = "superpay_dashboard_balance_label"
         label.textColor = .white
-        label.text = "10000"
         return label
     }()
     
